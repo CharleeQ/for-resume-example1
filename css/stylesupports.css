@@ -1,0 +1,104 @@
+.bg {
+    background-image: url(../img/supports/supports_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vw;
+}
+
+.bg-xs {
+    height: 400px;
+    margin-top: 30px;
+}
+
+.text-item {
+    text-align: center;
+    color: #fff;
+    padding-top: 10vw;
+}
+
+.text-item h1 {
+    font-family: 'SFLightE', 'SFLightW', Arial, sans-serif;
+    font-size: 3vw;
+}
+
+.text-item span {
+    font-family: 'SFRegularW', 'SFRegularW', Arial, sans-serif;
+}
+
+.text-item p {
+    font-size: 1.3vw;
+}
+
+.text-item a {
+    font-family: 'SFLightE', 'SFLightW', Arial, sans-serif;
+    font-size: 1.5vw;
+}
+
+.text-item a:hover {
+    color: black;
+    opacity: .8;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+header {
+    height: 5vw;    
+}
+
+.logo {
+    font-family: 'MilasianCircaBoldE', 'MilasianCircaBoldW', Arial, sans-serif;
+    font-size: 5vh;
+    margin-top: .7vw;
+    margin-left: 15px;
+}
+
+.logo a,
+.bread-crumbs a {
+    color: black;
+    opacity: .8;
+}
+
+.logo a:hover,
+.bread-crumbs a:hover {
+    color: cornflowerblue;
+    -webkit-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+.bread-crumbs {
+    margin-top: 1.7vw;
+}
+
+.bread-crumbs p {
+    font-family: 'SFLightE', 'SFLightW', Arial, sans-serif;
+}
+
+.headnav a {
+    color: black;
+    opacity: .9;
+    font-family: 'SFMediumE', 'SFMediumW', Arial, sans-serif;
+}
+
+.headnav {
+    margin-top: 1.7vw;
+    margin-right: 15px;
+    float: right;
+    display: inline-block;
+    text-align: center;
+}
+
+.headnav li {
+    display: inline-block;
+    margin-right: 2vw;
+}
+
+a:hover {
+    color: cornflowerblue;
+}

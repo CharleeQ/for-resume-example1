@@ -1,0 +1,156 @@
+h1 {
+    text-align: center;
+    font-family: 'SFLightE', 'SFLightW', Arial, sans-serif;
+    opacity: .9;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* HEADER */
+
+.logo {
+    font-family: 'MilasianCircaBoldE', 'MilasianCircaBoldW', Arial, sans-serif;
+    font-size: 5vh;
+    margin-top: .7vw;
+    margin-left: 15px;
+}
+
+.logo a,
+.bread-crumbs a {
+    color: black;
+    opacity: .8;
+}
+
+.logo a:hover,
+.bread-crumbs a:hover {
+    color: cornflowerblue;
+    -webkit-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+.bread-crumbs {
+    margin-top: 1.7vw;
+}
+
+.bread-crumbs p {
+    font-family: 'SFLightE', 'SFLightW', Arial, sans-serif;
+}
+
+.headnav a,
+.category a {
+    color: black;
+    opacity: .9;
+    font-family: 'SFMediumE', 'SFMediumW', Arial, sans-serif;
+}
+
+.headnav {
+    margin-top: 1.7vw;
+    margin-right: 15px;
+    float: right;
+    display: inline-block;
+    text-align: center;
+}
+
+.headnav li {
+    display: inline-block;
+    margin-right: 2vw;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.category {
+    text-align: center;
+    padding: 10px 0 1px;
+}
+
+.category li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.category li:first-child {
+    margin-left: 0;
+}
+
+.item-category {
+    background-color: #f8f8f8;
+}
+
+/* CONTENT */
+
+main {
+    margin-top: 2vw;
+}
+
+.big-banner {
+    background-image: url(../img/store/iphone_slider.jpg);
+    background-position: left top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 41vw;
+}
+
+main p {
+    text-align: center;
+    font-family: 'SFLightE', 'SFLightW', Arial, sans-serif;
+    opacity: .8;
+}
+
+main a {
+    color: black;
+}
+
+.item-check {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+
+.img-item {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15vw;
+}
+
+.img-item-1 {
+    background-image: url(../img/store/samsung_compare.png);
+}
+
+.img-item-2 {
+    background-image: url(../img/store/iphone_compare.jpg);
+}
+
+.img-item-3 {
+    background-image: url(../img/store/htcone_compare.png);
+}
+
+.underitem {
+    margin-top: 30px;
+}
+
+.accessoriers {
+    margin-top: 30px;
+}
+
+.bg-acc {
+    background-image: url(../img/store/accessories.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35vw;
+}
+
+.text-item {
+    padding-top: 13vw;
+}
+/* FOOTER */
+
+footer {
+    margin-top: 2vw;
+}
